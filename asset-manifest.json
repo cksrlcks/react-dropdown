@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cksrlcks/react-dropdown/static/css/main.d421986e.chunk.css",
+    "main.js": "/cksrlcks/react-dropdown/static/js/main.5a800ab8.chunk.js",
+    "main.js.map": "/cksrlcks/react-dropdown/static/js/main.5a800ab8.chunk.js.map",
+    "runtime-main.js": "/cksrlcks/react-dropdown/static/js/runtime-main.17ad1471.js",
+    "runtime-main.js.map": "/cksrlcks/react-dropdown/static/js/runtime-main.17ad1471.js.map",
+    "static/js/2.30959b6f.chunk.js": "/cksrlcks/react-dropdown/static/js/2.30959b6f.chunk.js",
+    "static/js/2.30959b6f.chunk.js.map": "/cksrlcks/react-dropdown/static/js/2.30959b6f.chunk.js.map",
+    "index.html": "/cksrlcks/react-dropdown/index.html",
+    "precache-manifest.5fb9e185d669f874f80c1dc75621757a.js": "/cksrlcks/react-dropdown/precache-manifest.5fb9e185d669f874f80c1dc75621757a.js",
+    "service-worker.js": "/cksrlcks/react-dropdown/service-worker.js",
+    "static/css/main.d421986e.chunk.css.map": "/cksrlcks/react-dropdown/static/css/main.d421986e.chunk.css.map",
+    "static/js/2.30959b6f.chunk.js.LICENSE.txt": "/cksrlcks/react-dropdown/static/js/2.30959b6f.chunk.js.LICENSE.txt",
+    "static/media/logo.acdae2e5.svg": "/cksrlcks/react-dropdown/static/media/logo.acdae2e5.svg",
+    "static/media/menu.4bb0ccdf.svg": "/cksrlcks/react-dropdown/static/media/menu.4bb0ccdf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17ad1471.js",
+    "static/js/2.30959b6f.chunk.js",
+    "static/css/main.d421986e.chunk.css",
+    "static/js/main.5a800ab8.chunk.js"
+  ]
+}
