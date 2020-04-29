@@ -139,7 +139,10 @@ const Dropdown = styled.div`
         box-sizing: border-box;
         display:flex;
         align-items:center;
-
+        &:hover{
+          background:#f8f8f8;
+          border-radius:16px;
+        }
             span{
                 display:block;
             }
