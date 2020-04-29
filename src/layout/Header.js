@@ -7,7 +7,6 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <HeaderBox>
-      <Logo />
       <Nav icon={<Menu />} />
     </HeaderBox>
   );
@@ -21,6 +20,6 @@ const HeaderBox = styled.header`
   color: #fff;
   padding: 0 16px 0 32px;
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-items: center;
 `;
