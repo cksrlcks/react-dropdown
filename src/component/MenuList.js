@@ -101,6 +101,10 @@ const MenuList = () => {
             <MenuItem name="main" icon={<BackIcon/>} >뒤로가기</MenuItem>
             <MenuItem icon={<Icon08 />}>메뉴1</MenuItem>
             <MenuItem icon={<Icon09 />}>메뉴2</MenuItem>
+            <MenuItem icon={<Icon04 />}>메뉴2</MenuItem>
+            <MenuItem icon={<Icon02 />}>메뉴2</MenuItem>
+            <MenuItem icon={<Icon06 />}>메뉴2</MenuItem>
+            <MenuItem icon={<Icon01 />}>메뉴2</MenuItem>
           </ul>
         </CSSTransition>
       </Dropdown>
