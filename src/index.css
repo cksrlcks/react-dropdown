@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
 :root {
     --color: #333;
     --speed: 500ms;
@@ -31,15 +32,10 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Apple SD Gothic Neo, Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, 맑은 고딕, 나눔고딕, Nanum Gothic, arial, 돋움, Dotum, Tahoma,
-        Geneva, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 ul,

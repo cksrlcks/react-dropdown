@@ -40,10 +40,10 @@ const MenuList = () => {
         }
         return (
             <li>
-                <Link to={props.href} onClick={menuChange}>
+                <a href="#" onClick={menuChange}>
                     <span className="menu_icon">{props.icon}</span>
                     <span className="menu_name">{props.children}</span>
-                </Link>
+                </a>
             </li>
         );
     };
@@ -52,9 +52,7 @@ const MenuList = () => {
         <Dropdown style={{ height: menuHeight }} ref={dropdownRef}>
             <CSSTransition in={activeMenu === 'main'} timeout={500} unmountOnExit onEnter={calcHeight} classNames="depth1">
                 <ul className="menu">
-                    <MenuItem icon={<HomeIcon />} href="/">
-                        Home
-                    </MenuItem>
+                    <MenuItem icon={<HomeIcon />}>Home</MenuItem>
                     <MenuItem name="menu1" icon={<AboutIcon />}>
                         About
                     </MenuItem>
@@ -71,9 +69,7 @@ const MenuList = () => {
                     <MenuItem name="main" icon={<BackIcon />}>
                         뒤로가기
                     </MenuItem>
-                    <MenuItem icon={<Icon01 />} href="/about">
-                        메뉴1
-                    </MenuItem>
+                    <MenuItem icon={<Icon01 />}>메뉴1</MenuItem>
                     <MenuItem icon={<Icon02 />}>메뉴2</MenuItem>
                     <MenuItem icon={<Icon03 />}>메뉴3</MenuItem>
                     <MenuItem icon={<Icon04 />}>메뉴3</MenuItem>
